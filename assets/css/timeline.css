@@ -30,7 +30,7 @@ body {
 
 /* Container around content */
 .container {
-  padding: 1px 40px;
+  padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -123,12 +123,12 @@ body {
 }
 
 .content h2 {
-  margin: 0px;
-  padding: 0px;
+  margin: 5px;
+  padding: 5px;
 }
 .content h2.page-header {
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 .content p {
   margin: 0px;
