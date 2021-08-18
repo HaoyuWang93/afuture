@@ -236,6 +236,10 @@ body {
   margin-top: 20px;
   text-align:center;
 }
+.popup h3 {
+  text-align:center;
+  font-weight:600;
+}
 .popup .content {
   max-height: 50%;
   text-align:center;
