@@ -2864,8 +2864,8 @@ input, select, textarea {
 					#header nav ul li a {
 						display: block;
 						position: relative;
-						height: 3em;
-						line-height: 3em;
+						height: 2em;
+						line-height: 2em;
 						padding: 0 1.5em;
 						background-color: rgba(255, 255, 255, 0.5);
 						border-radius: 4px;
@@ -2878,8 +2878,8 @@ input, select, textarea {
 
 					#header nav ul li a[href="#menu"] {
 						-webkit-tap-highlight-color: transparent;
-						width: 4em;
-						text-indent: 4em;
+						width: 3em;
+						text-indent: 3em;
 						font-size: 1em;
 						overflow: hidden;
 						padding: 0;

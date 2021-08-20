@@ -210,10 +210,11 @@ body {
   padding: 20px;
   background: white;
   border-radius: 6px;
-  max-width: 85%;
+  max-width: 90%;
   max-height:70%;
   position: relative;
-  margin:10% auto;
+  top:15%;
+  margin:auto;
   overflow:scroll;
   overflow-x: hidden;
 }
