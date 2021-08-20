@@ -1,7 +1,7 @@
-Personal portfolio built on the basis of:
+Personal project of architectural fiction built on the basis of:
 Phantom by HTML5 UP
 html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+CCA 3.0 license (html5up.net/license)
 
 Credits:
 
