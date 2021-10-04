@@ -44,6 +44,13 @@ body {
   width: 50%;
 }
 
+.scene {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
 /* The circles on the timeline */
 .container::after {
   content: '';
@@ -66,6 +73,19 @@ body {
   right: -8px;
   background-color: white;
   border: 5px solid black;
+  top: 25px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.scene::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: -8px;
+  background-color: white;
+  border: 5px solid #696969;
   top: 25px;
   border-radius: 50%;
   z-index: 1;
@@ -160,6 +180,12 @@ body {
   padding-right: 20px;
   }
 
+  .scene {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 20px;
+  }
+
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
   left: 60px;
@@ -170,6 +196,13 @@ body {
 
   /* Make sure that all arrows for stories are pointing leftwards */
   .story::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  .scene::before {
   left: 60px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
