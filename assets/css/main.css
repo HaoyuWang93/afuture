@@ -2621,8 +2621,7 @@ input, select, textarea {
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
 			width: calc(75% - 2.5em);
-			margin: 0.5em 0 0 2.5em;
-
+			margin: 0 0 0 2.5em;
 		}
 
 			.tiles article > .image {
